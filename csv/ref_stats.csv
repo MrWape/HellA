@@ -1,0 +1,34 @@
+id,name,description,category,type,subtype,notes
+A,Agility,How agile you are.,stat,base,,
+ap,AP,Your action points.,stat,,,
+apMax,Max AP,Your maximum action points. Determined by Agility.,stat,,,i=5+floor[A/2]
+C,Charisma,How charismatic you are.,stat,base,,
+carryWeight,Carry Weight,How much you can carry.,stat,,,i=25+(S*25)
+combatSequence,Combat Sequence,How fast you are to act in combat.,stat,,,
+critChance,Critical Chance,The change of scoring a critical hit.,stat,,,i=Luck*1
+critMultiplier,Critical Multiplier,How powerful your critical hits are.,stat,,,
+damageRes,Damage Resistance,How much damage is reduced by armor.,stat,,,"FinalDamage = max(1, AdjustedDamage * ((100-min(DR,90))/100) )"
+damageThreshold,Damage Threshold,How much damage is blocked by armor.,stat,,,"AdjustedDamage = max(0, BaseDamage-DT)"
+E,Endurance,How much stamina you have.,stat,base,,
+evade,Evade,How likely you are to evade an attack.,stat,,,i=A %
+fertile,Fertility,How fertile you are. Determines the likelihood of impregnation during sex.,stat,,,
+horny,Horniness,"How horny you are. The hornier you are,  the less focused you are and the more susceptible you are to seduction.",stat,,,
+hp,HP,Your hit points.,stat,,,
+hpMax,Max HP,Your maximum hit points. Determined by Endurance and Level.,stat,,,"i=15+S+2*E, levUp = 2+(E/2)"
+I,Intelligence,How smart you are.,stat,base,,
+L,Luck,How fortunate you are.,stat,base,,
+level,Level,The level you are at.,stat,,,next = (n*(n-1)/2) * 1000 XP
+meleeDamage,Melee Damage,How much base damage you do in melee combat.,stat,,,"i=max(1,S-5)"
+mentalRes,Mental Resistance,How resistant you are to psychological or psionic manipulation.,stat,,,I*2+C
+nextLevel,Next Level,The amount of XP to get to the next level.,stat,,,next = (n*(n-1)/2) * 1000 XP
+P,Perception,How observant you are.,stat,base,,
+partyLimit,Party Limit,,stat,,,floor(C/2)
+patience,Patience,Your patience for certain interactions.,stat,,,
+patienceMax,Max Patience,Your maximum patience. Determined by Intelligence.,stat,,,i=1+floor[I/2]
+poisonRes,Poison Resistance,"How much you can resist toxicity, poisons, and other biological impediments.",stat,,,E*5
+radiationRes,Radiation Resisance,"How much you can resist radiation,  emissions and other forms of obtrusive energy.",stat,,,E*2
+rangeDamage,Range Damage,How much base damage you do with ranged weapons,stat,,,"i=max(1,P-5)"
+S,Strength,How strong you are.,stat,base,,
+skillRate,Skill Growth Rate,The rate at which your skills improve.,stat,,,2*P
+weight,Weight,How much you are carrying.,stat,,,
+xp,XP,How much experience points you've acrrued.,stat,,,

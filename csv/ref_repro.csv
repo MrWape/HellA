@@ -1,0 +1,7 @@
+id,name,description,category,type,subtype,notes
+mother,Mother,This person's female parent.,repro,str,,
+father,Father,This person's male parent.,repro,str,,
+offspringList,Offspring List,This person's progeny.,repro,arr,,
+pregnancyStage,Pregnancy Stage,How many days left in their pregnancy.,repro,num,,
+pregCause,Pregnancy Cause,Lovechild or hatespawn? How the pregnancy was caused.,repro,str,,rape/love/fuck/pay
+offspring,Number of Offspring,How many offspring they have had.,repro,num,,
