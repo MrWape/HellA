@@ -1,0 +1,51 @@
+
+
+.talkNPC img {
+
+	border: 10px solid red;
+}
+
+
+.spriteholder {
+	max-width: 200px;
+}
+
+.talkNPC .spriteholder {
+	float: right; 
+
+
+}
+
+
+
+.options ul {
+	list-style: none; 
+}
+
+.options ul li a:before {
+	content: "\00BB \0020";
+}
+
+
+
+
+
+
+
+
+POV, GIRL, MAN, GUY, NPC {
+	display: block;
+	margin-bottom: 1em; 
+	_quotes: "“" "”" "‘" "’";
+}
+POV:before, GIRL:before, MAN:before, GUY:before, NPC:before {
+	content:"&quot;";
+	content: open-quote;
+}
+POV:after, GIRL:after, MAN:after, GUY:after, NPC:after {
+	content:"&quot;";
+	content: close-quote;
+}
+
+
+

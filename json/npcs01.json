@@ -1,5 +1,38 @@
 [
    {
+      "id":"player",
+      "name":"Player",
+      "lastName":"One",
+      "age":18,
+      "gender":"male",
+      "description":"A lone wanderer.",
+      "job":"wanderer",
+      "type":"player",
+      "subtype":"civilian",
+      "weapons":[
+	"gun","axe","grenade"
+      ],
+      "clothes":{
+	"armor":"shirt"
+	},
+      "money": 50,
+      "inventory":[
+         "screws",
+         "bolts",
+         "tootls"
+      ],
+      "traits":[
+         "thin skin",
+         "brash",
+         "lazy"
+      ],
+      "stats":{
+	"level":1
+      },
+      "repro":{
+	"mother":""
+      }
+   },{
       "id":"unknown",
       "name":"Unknown",
       "lastName":"",
@@ -12,53 +45,13 @@
       "weapons":[
 
       ],
-      "clothes":[
+      "clothes":{
 
-      ],
+      },
       "inventory":[
 
       ],
-      "stats":{
-
-      },
       "repro":{
-
-      }
-   },
-   {
-      "id":"player",
-      "name":"Player",
-      "lastName":"One",
-      "age":18,
-      "gender":"male",
-      "description":"A lone wanderer.",
-      "job":"wanderer",
-      "type":"player",
-      "subtype":"civilian",
-      "weapons":[
-
-      ],
-      "clothes":[
-
-      ],
-      "inventory":[
-         "screws",
-         "bolts",
-         "tootls"
-      ],
-      "traits":[
-         "thin skin",
-         "brash",
-         "lazy"
-      ],
-      "stats":{
-
-      },
-      "repro":{
-	"mother":,
-	"":,
-	"":,
-	"":,
 
       }
    },
@@ -74,17 +67,18 @@
       "type":"npc",
       "subtype":"noble",
       "weapons":[
-         "holy sword"
+         "Holy Sword"
       ],
-      "clothes":[
-         "chainmail",
-         "p-field generator"
-      ],
+      "clothes":{
+         "armor":"Chainmail",
+         "misc":"P-Field Generator"
+      },
+      "money": 120,
       "inventory":[
 
       ],
       "traits":[
-
+	"Slut", "Whore", "Mercenary"
       ],
       "stats":{
 
@@ -106,9 +100,9 @@
       "weapons":[
          "revolver"
       ],
-      "clothes":[
-         "leather armor"
-      ],
+      "clothes":{
+         "armor":"Leather Armor"
+      },
       "inventory":[
 
       ],
@@ -135,9 +129,9 @@
       "weapons":[
 
       ],
-      "clothes":[
-         "cloth armor"
-      ],
+      "clothes":{
+         "armor":"Cloth Armor"
+      },
       "inventory":[
 
       ],
@@ -164,9 +158,9 @@
       "weapons":[
          "revolver"
       ],
-      "clothes":[
-         "leather armor"
-      ],
+      "clothes":{
+         "armor":"Leather Armor"
+      },
       "inventory":[
 
       ],
@@ -191,12 +185,12 @@
       "type":"player",
       "subtype":"civilian",
       "weapons":[
-         "shock club",
-         "shotgun"
+         "Shock Club",
+         "Shotgun"
       ],
-      "clothes":[
+      "clothes":{
 
-      ],
+      },
       "inventory":[
 
       ],
@@ -223,9 +217,9 @@
       "weapons":[
 
       ],
-      "clothes":[
+      "clothes":{
 
-      ],
+      },
       "inventory":[
 
       ],
@@ -252,9 +246,9 @@
       "weapons":[
 
       ],
-      "clothes":[
+      "clothes":{
 
-      ],
+      },
       "inventory":[
 
       ],
@@ -281,9 +275,9 @@
       "weapons":[
 
       ],
-      "clothes":[
+      "clothes":{
 
-      ],
+      },
       "inventory":[
 
       ],
@@ -310,9 +304,9 @@
       "weapons":[
 
       ],
-      "clothes":[
+      "clothes":{
 
-      ],
+      },
       "inventory":[
 
       ],
