@@ -1,0 +1,13 @@
+id,name,x,y,description,rumours,oldRumours,leader,lawman,npcs,items,events,isOasis,isDungeon,reputation,bounty,visibility,visits,isFound
+chinatown,Chinatown,0,0,,,,,,,,,Yes,No,0,0,50,0,No
+studio,Studio,0,0,,,,,,,,,Yes,No,0,0,50,0,No
+university,UCLA,0,0,,,,,,,,,No,No,0,0,50,0,No
+kingdom,Kingdom of Aheim,0,0,,,,,,,,,No,No,0,0,50,0,No
+haggleton,Great Bazaar,0,0,,,,,,,,,No,No,0,0,50,0,No
+beverlyhills,Beverly Hells,0,0,,,,,,,,,Yes,No,0,0,50,0,No
+,ROUGH PLACE,0,0,,,,,,,,,No,No,0,0,50,0,No
+,PODUNK SMALLTOWN,0,0,,,,,,,,,No,No,0,0,50,0,No
+,GHETTO,0,0,,,,,,,,,No,No,0,0,50,0,No
+,military place,0,0,,,,,,,,,No,No,0,0,50,0,No
+,,0,0,,,,,,,,,No,No,0,0,50,0,No
+,,0,0,,,,,,,,,No,No,0,0,50,0,No

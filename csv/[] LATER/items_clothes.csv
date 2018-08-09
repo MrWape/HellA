@@ -1,0 +1,64 @@
+NOTES,id,theme,name,AC,DT,DR,WT,$,weakvs,strongvs,requirement,effect,stats,skills,description,category,type,subtype
+new,chainmail_r,chain,"Chainmail Armor, Raider",17,2,25,25,,,,,,,,,item,clothes,armor
+new,chainmail_b,chain,"Chainmail Armor, Barbed",,,,,,,,,spike,,,,item,clothes,armor
+new,chainmail,chain,Chainmail Armor,13,3,27,30,,,,,,"S:999,P:888",,,item,clothes,armor
+Leather jacket,,none,Wanderer Garb,8,0,20,5,250,,,,,S:-40,,"Leather jacket and jeans, basic attire suited for wanderers of the hellscape.",item,clothes,armor
+new,,none,Tuxedo,5,0,15,2,2000,,,,,,flirt:2,A fine suit.,item,clothes,armor
+new,supersuit3,super,"Superhero Suit, Armored",25,0,15,5,0,,,,,"A:1,L:66",sneak:-2,,item,clothes,armor
+new,supersuit2,super,"Superhero Suit, Caped",40,0,5,3,0,,,,,"A:1,S:66",sneak:1,,item,clothes,armor
+new,supersuit,super,Superhero Suit,25,0,5,2,0,,,,,A:2,"talk:1,sneak:-2",,item,clothes,armor
+Robes,,none,Robes,5,0,20,10,0,fire,shock,,,P:-1,,Hooded robes made of colored cloth.,item,clothes,armor
+new,,none,Preacher Clothes,5,0,15,2,,,erotic,,,,"talk:2,flirt:1",,item,clothes,armor
+Metal armor Mk II,metalarmor2,metal,"Plate Armor, Modernized",15,4,35,30,0,,,,,,,Medieval-inspired armor made from modern metal alloys. Lighter and stronger.,item,clothes,armor
+new,metalarmor3,metal,"Plate Armor, Knight",15,4,30,40,0,,,,,,,,item,clothes,armor
+new,metalarmor4,metal,"Plate Armor, Insulated",10,4,30,35,0,,shock,,,,,Medieval-style armor enhanced with rubber insulation.,item,clothes,armor
+new,metalarmor5,metal,"Plate Armor, Barbaric",8,2,35,35,0,,,,spike,,,Barbaric metal armor adorned with blood-stained spikes.,item,clothes,armor
+Metal armor,metalarmor,metal,Plate Armor,10,4,30,35,1100,shock,,,,,,Medieval-style armor made of steel plates.,item,clothes,armor
+,,combat,Militia Uniform,8,0,25,3,0,,,,,,,Lightly-armored uniform of the militiamen.,item,clothes,armor
+,,combat,"Military Armor, Scout",20,5,40,20,0,,,,,,sneak:1,Modern armor designed to camouflage the wearer.,item,clothes,armor
+Combat armor Mk II,,combat,"Military Armor, Advanced",25,6,40,25,8000,,,,,,,Modern armor designed to endure intense combat.,item,clothes,armor
+Combat armor,,combat,Military Armor,20,5,40,20,6500,,,,,,,Modern armor made to withstand bullets and demon claws alike.,item,clothes,armor
+,latexarmorf,latex,"LTX Armor, Frictionless",30,1,20,6,,erotic,,,,,fuck:2,Armor made of a strange shiny material. Oddly frictionless to the touch.,item,clothes,armor
+,latexarmore,latex,"LTX Armor, Electron",25,1,25,6,,erotic,shock,,,,fuck:2,Armor made of a strange shiny material. Its surface trobs with shielding energy.,item,clothes,armor
+,,latex,LTX Armor,25,1,20,6,,erotic,,,,,fuck:1,Armor made of a strange shiny material.,item,clothes,armor
+,leatherarmors,leather,"Leather Armor, Streamlined",25,1,20,6,0,,,,,A:1,,"Armor made of leather, streamlined for improved movement.",item,clothes,armor
+Leather armor Mk II,leatherarmor2,leather,"Leather Armor, Enhanced",20,3,25,10,1000,,,,,,,"Armor made of leather, with enhanced durability.",item,clothes,armor
+Leather armor,leatherarmor1,leather,Leather Armor,15,2,25,8,700,,,,,,,Armor made of leather.,item,clothes,armor
+,,none,Hoodie,5,0,20,10,0,,,,,P:-1,sneak:1,,item,clothes,armor
+,,none,Gangbanger Garb,6,0,15,,1900,,,,,,"flirt:1,int:2",A shirt and baggy pants typical of some bandit gangs.,item,clothes,armor
+,,z,Futurenaut Suit,15,4,20,20,0,,all,,,,,,item,clothes,armor
+,,fur,"Furs, Beastman",,,,,,,,,,,,,item,clothes,armor
+,,fur,"Furs, Barbarian",,,,,,,,,,,,,item,clothes,armor
+,,fur,Furs,,,,,,,,,,,,,item,clothes,armor
+Advanced power armor,,pow,"Exo Armor, Experimental",,,,,,,,,,,,An ancient exoskeletal armor powered with a nuclear core.,item,clothes,armor
+Advanced power armor Mk II,,pow,"Exo Armor, Apex",,,,,,,,,,,,An ancient exoskeletal armor powered with a nuclear core.,item,clothes,armor
+Hardened power armor,,pow,"Exo Armor, Advanced",,,,,,,,,,,,An ancient exoskeletal armor powered with a nuclear core.,item,clothes,armor
+Power Armor,,pow,Exo Armor,,,,,,,,,,,,An ancient exoskeletal armor powered with a nuclear core.,item,clothes,armor
+,,bio,"Biosuit, Lover",,,,,,,,,,"C:1,E:1,A:1","flirt:2,fuck:4",A warm fleshy suit that envelops the wearer's naked body and grants them a sexy physique.,item,clothes,armor
+,,bio,"Biosuit, Fighter",,,,,,,,,,"S:1,E:1,P:1",fight:4,A warm fleshy suit that envelops the wearer's naked body and grants them a strong physique.,item,clothes,armor
+,,bio,"Biosuit, Fat",,,,,,,,,,"A:-2,E:-1,C:-1",,A warm fleshy suit that envelops the wearer's naked body and grants them a fat physique.,item,clothes,armor
+,,bio,"Biosuit, Custom",,,,,,,,,,,,A warm fleshy suit embued with the spoils of betrayal.,item,clothes,armor
+Combat leather jacket,,misc,Biker Garb,18,0,30,,,,,,,,int:2,Rough leather armor worn by cruel raiders riding metal steeds.,item,clothes,armor
+,,,Tire Armor,,,,,,,,,,,,,,,
+,,,"Tire Armor, Winterproof",,,,,,,,,,,,,,,
+,,,"Training Garb, Weighted",,,,,,,,,,,,,,,
+,,,"Thief Garb, Hooded",,,,,,,,,,,,,,,
+,,,Thief Garb,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,

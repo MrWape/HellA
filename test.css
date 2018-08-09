@@ -1,5 +1,73 @@
 
 
+
+
+
+/* =================================== */
+/* CHARACTER SHEET */
+/* =================================== */
+
+.character_sheet {
+	padding: 0;
+	margin-bottom: 7px;
+	background: var(--semitransparent-bg-color);
+}
+
+.character_sheet .section {
+	margin-bottom: 7px;
+	background: rgba(0,0,0, 0.3);
+}
+.character_sheet .pic img {
+	width: 150px;
+	height: 150px;
+}
+
+.character_sheet .heading {
+	font-family: var(--title-font);
+	font-size: 1.3em;
+	padding: 10px; 
+}
+
+.character_sheet .subheading {
+	font-family: var(--main-font);
+	font-size: 0.7em;
+	display: inline;
+}
+
+.character_sheet .description {
+	
+}
+
+.character_sheet .pic {
+	float: left;
+	margin-right: 20px;
+}
+
+
+.character_sheet h3 {
+	border-bottom: 5px white solid;
+    margin: 10px 0;
+    padding: 5px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .talkNPC img {
 
 	border: 10px solid red;
@@ -12,8 +80,6 @@
 
 .talkNPC .spriteholder {
 	float: right; 
-
-
 }
 
 
@@ -31,7 +97,7 @@
 
 
 
-
+/* DIALOGUE */
 
 POV, GIRL, MAN, GUY, NPC {
 	display: block;
@@ -46,6 +112,73 @@ POV:after, GIRL:after, MAN:after, GUY:after, NPC:after {
 	content:"&quot;";
 	content: close-quote;
 }
+
+
+
+
+
+
+
+
+.maxWidth {
+	max-width: 100%;
+	overflow-y: scroll;
+    overflow-x: hidden;
+	}
+
+
+
+
+.cash {
+	color: green;
+}
+
+
+
+
+.capitalize {
+	text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dim {
+	color: silver;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,0 +1,21 @@
+﻿<columns units="px">
+  <column name="id" type="Text" />
+  <column name="name" type="Text" />
+  <column name="x" type="Number" format="G" nulltext="-" alignment="Right" />
+  <column name="y" type="Number" format="G" nulltext="-" alignment="Right" />
+  <column name="description" type="Text" />
+  <column name="rumours" type="Text" nulltext=",,," />
+  <column name="oldRumours" type="Text" nulltext=",,," />
+  <column name="leader" type="Text" />
+  <column name="lawman" type="Text" />
+  <column name="npcs" type="Text" nulltext=",,," />
+  <column name="items" type="Text" nulltext=",,," />
+  <column name="events" type="Text" nulltext=",,," />
+  <column name="isOasis" type="Boolean" format="Yes;No" nulltext="-" alignment="Center" />
+  <column name="isDungeon" type="Boolean" format="Yes;No" nulltext="-" alignment="Center" />
+  <column name="reputation" type="Number" format="G" nulltext="-" alignment="Right" />
+  <column name="bounty" type="Number" format="G" nulltext="-" alignment="Right" />
+  <column name="visibility" type="Number" format="G" nulltext="-" alignment="Right" />
+  <column name="visits" type="Number" format="G" nulltext="-" alignment="Right" />
+  <column name="isFound" type="Boolean" format="Yes;No" nulltext="-" alignment="Center" />
+</columns>

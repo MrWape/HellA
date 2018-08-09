@@ -1,2 +1,1 @@
 
-var gestationPeriod = 270;

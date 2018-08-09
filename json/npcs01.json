@@ -1,5 +1,5 @@
-[
-   {
+[  
+   {  
       "id":"player",
       "name":"Player",
       "lastName":"One",
@@ -9,85 +9,68 @@
       "job":"wanderer",
       "type":"player",
       "subtype":"civilian",
-      "weapons":[
-	"gun","axe","grenade"
+      "weapons":{  
+         "melee":"Shock Club",
+         "ranged":"Shotgun"
+      },
+      "clothes":{  
+         "body":"Wanderer Garb"
+      },
+      "money":50,
+      "inventory":[  
+         "condom",
+         "Rapefruit",
+         "Mag Cuffs"
       ],
-      "clothes":{
-	"armor":"shirt"
-	},
-      "money": 50,
-      "inventory":[
-         "screws",
-         "bolts",
-         "tootls"
-      ],
-      "traits":[
+      "traits":[  
          "thin skin",
          "brash",
          "lazy"
       ],
-      "stats":{
-	"level":1
+      "stats":{  
+         "level":1
       },
-      "repro":{
-	"mother":""
-      }
-   },{
-      "id":"unknown",
-      "name":"Unknown",
-      "lastName":"",
-      "age":999,
-      "gender":"",
-      "description":"This person is a mystery.",
-      "job":"",
-      "type":"",
-      "subtype":"civilian",
-      "weapons":[
-
-      ],
-      "clothes":{
-
-      },
-      "inventory":[
-
-      ],
-      "repro":{
-
+      "repro":{  
+         "mother":""
       }
    },
-   {
+   {  
       "id":"arianesa",
       "name":"Ariane",
-      "lastName":"of the Order of St. Amour",
-      "sourceName":"Ariane St. Amour",
+      "lastName":", Sister",
+      "NOTES":"Ariane St. Amour",
       "age":27,
       "gender":"female",
       "description":"A powerful warrior priestess from a reclusive order. It would be wise to not get in her way.",
       "job":"Warrior Priestess",
       "type":"npc",
       "subtype":"noble",
-      "weapons":[
-         "Holy Sword"
-      ],
-      "clothes":{
-         "armor":"Chainmail",
-         "misc":"P-Field Generator"
+      "weapons":{  
+         "melee":"Holy Sword"
       },
-      "money": 120,
+      "clothes":{  
+	"head":"Mirror Shades",
+         "body":"Chainmail Armor",
+         "waist":"P-Field Device"
+      },
+      "money":120,
       "inventory":[
-
+         "Leather Armor",
+         "Wanderer Garb",
+         "Superhero Suit","Grenade","Shotgun"
       ],
       "traits":[
-	"Slut", "Whore", "Mercenary"
+         "Slut", "Whore", "Mercenary",
+	 "Pious", "Tattoos", "Virgin", "Brave", "Tough"
       ],
-      "stats":{
+      "stats":{  
 
       },
-      "repro":{
+      "repro":{  
 
       }
    },
-   {
+   {  
       "id":"adolphus",
       "name":"Adolphus",
       "lastName":"Hermann",
@@ -97,26 +80,26 @@
       "job":"Travelling Merchant",
       "type":"npc",
       "subtype":"civilian",
-      "weapons":[
-         "revolver"
-      ],
-      "clothes":{
-         "armor":"Leather Armor"
+      "weapons":{  
+         "melee":"revolver"
       },
-      "inventory":[
+      "clothes":{  
+         "body":"Leather Armor"
+      },
+      "inventory":[  
 
       ],
-      "traits":[
+      "traits":[  
 
       ],
-      "stats":{
+      "stats":{  
 
       },
-      "repro":{
+      "repro":{  
 
       }
    },
-   {
+   {  
       "id":"matilda",
       "name":"Matilda",
       "lastName":"Hermann",
@@ -126,26 +109,26 @@
       "job":"Travelling Merchant",
       "type":"npc",
       "subtype":"civilian",
-      "weapons":[
-
-      ],
-      "clothes":{
-         "armor":"Cloth Armor"
-      },
-      "inventory":[
-
-      ],
-      "traits":[
-
-      ],
-      "stats":{
+      "weapons":{  
 
       },
-      "repro":{
+      "clothes":{  
+         "body":"Cloth Armor"
+      },
+      "inventory":[  
+
+      ],
+      "traits":[  
+
+      ],
+      "stats":{  
+
+      },
+      "repro":{  
 
       }
    },
-   {
+   {  
       "id":"ralph",
       "name":"Ralph",
       "lastName":"Roth",
@@ -155,26 +138,26 @@
       "job":"Travelling Merchant",
       "type":"npc",
       "subtype":"civilian",
-      "weapons":[
-         "revolver"
-      ],
-      "clothes":{
-         "armor":"Leather Armor"
+      "weapons":{  
+         "melee":"revolver"
       },
-      "inventory":[
+      "clothes":{  
+         "body":"Leather Armor"
+      },
+      "inventory":[  
 
       ],
-      "traits":[
+      "traits":[  
 
       ],
-      "stats":{
+      "stats":{  
 
       },
-      "repro":{
+      "repro":{  
 
       }
    },
-   {
+   {  
       "id":"guard",
       "name":"Guard",
       "lastName":"",
@@ -184,27 +167,27 @@
       "job":"guard",
       "type":"player",
       "subtype":"civilian",
-      "weapons":[
-         "Shock Club",
-         "Shotgun"
-      ],
-      "clothes":{
+      "weapons":{  
+         "melee":"Shock Club",
+         "ranged":"Shotgun"
+      },
+      "clothes":{  
 
       },
-      "inventory":[
+      "inventory":[  
 
       ],
-      "traits":[
+      "traits":[  
 
       ],
-      "stats":{
+      "stats":{  
 
       },
-      "repro":{
+      "repro":{  
 
       }
    },
-   {
+   {  
       "id":"generic_man",
       "name":"Man",
       "lastName":"",
@@ -214,26 +197,26 @@
       "job":"settler",
       "type":"player",
       "subtype":"civilian",
-      "weapons":[
-
-      ],
-      "clothes":{
+      "weapons":{  
 
       },
-      "inventory":[
-
-      ],
-      "traits":[
-
-      ],
-      "stats":{
+      "clothes":{  
 
       },
-      "repro":{
+      "inventory":[  
+
+      ],
+      "traits":[  
+
+      ],
+      "stats":{  
+
+      },
+      "repro":{  
 
       }
    },
-   {
+   {  
       "id":"generic_woman",
       "name":"Woman",
       "lastName":"",
@@ -243,26 +226,26 @@
       "job":"settler",
       "type":"player",
       "subtype":"civilian",
-      "weapons":[
-
-      ],
-      "clothes":{
+      "weapons":{  
 
       },
-      "inventory":[
-
-      ],
-      "traits":[
-
-      ],
-      "stats":{
+      "clothes":{  
 
       },
-      "repro":{
+      "inventory":[  
+
+      ],
+      "traits":[  
+
+      ],
+      "stats":{  
+
+      },
+      "repro":{  
 
       }
    },
-   {
+   {  
       "id":"generic_boy",
       "name":"Boy",
       "lastName":"",
@@ -272,26 +255,26 @@
       "job":"housewife",
       "type":"player",
       "subtype":"civilian",
-      "weapons":[
-
-      ],
-      "clothes":{
+      "weapons":{  
 
       },
-      "inventory":[
-
-      ],
-      "traits":[
-
-      ],
-      "stats":{
+      "clothes":{  
 
       },
-      "repro":{
+      "inventory":[  
+
+      ],
+      "traits":[  
+
+      ],
+      "stats":{  
+
+      },
+      "repro":{  
 
       }
    },
-   {
+   {  
       "id":"generic_girl",
       "name":"Girl",
       "lastName":"",
@@ -301,22 +284,45 @@
       "job":"housewife",
       "type":"player",
       "subtype":"civilian",
-      "weapons":[
-
-      ],
-      "clothes":{
+      "weapons":{  
 
       },
-      "inventory":[
-
-      ],
-      "traits":[
-
-      ],
-      "stats":{
+      "clothes":{  
 
       },
-      "repro":{
+      "inventory":[  
+
+      ],
+      "traits":[  
+
+      ],
+      "stats":{  
+
+      },
+      "repro":{  
+
+      }
+   },
+   {  
+      "id":"unknown",
+      "name":"Unknown",
+      "lastName":"",
+      "age":999,
+      "gender":"",
+      "description":"This person is a mystery.",
+      "job":"",
+      "type":"",
+      "subtype":"civilian",
+      "weapons":{  
+
+      },
+      "clothes":{  
+
+      },
+      "inventory":[  
+
+      ],
+      "repro":{  
 
       }
    }

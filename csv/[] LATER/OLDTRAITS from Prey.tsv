@@ -1,0 +1,313 @@
+id	name	category	type	subtype	description	NOTES	S	P	E	C	I	A	L	%	MORAL	LOOKS	FERT	CONF	INV
+		traits																	
+		traits																	
+		traits																	
+	Teen	traits	age	H	!Xe is a teenager.				2	2	-1			0		1			
+	Old	traits	age	H	!Xe is old.		-1		-1	-1		-1		0		-2	-3		
+	Mature	traits	age	H	!Xe is mature.			1		1				0					
+	Thirties	traits	age	H	!Xe is in !xis thirties.														
+	Twenty-Something	traits	age	H	!Xe is in !xis twenties.					2				0		1	1		
+	Ancient	traits	age	H	!Xe has withstood the test of time.			2			3		2	0		1	-5		
+	Elderly	traits	age	H	!Xe is quite old.		-2		-1	-2		-2		0		-3			
+	Young	traits	age	H	!Xe is a young thang.						-1			0			1		
+	Young Adult	traits	age	H	!Xe is on the cusp of adulthood. MAYBEJUNK					2				0		1	1		
+	Type O Blood	traits	blood	S	!Xe has O blood type.		1					1			-1				
+	Type A Blood	traits	blood	S	!Xe has A blood type.			1		-1	1								
+	Type B Blood	traits	blood	S	!Xe has B blood type.				-1	1		1							
+	Type AB Blood	traits	blood	S	!Xe has AB blood type.					1	1								
+	Saggy Boobs	traits	boobs	H	!Xe has saggy tits.														
+	Lactation	traits	boobs	S	!Xe is capable of producing milk.												1		
+	Foreign	traits	char 		!Xe's a foreigner.														
+	Nerd	traits	char brain	H	!Xe is a nerd.									3	0	0	0		
+	Geek	traits	char brain	H	!Xe is a total geek.									3	0	0	0		
+	Logical	traits	char brain	H	!Xe's logical like a machine.			1			2								
+	Smart	traits	char brain																
+	Golddigger	traits	char crass		!Xe's a golddigger.														
+	Angsty	traits	char crass		!Xe's a ball of angst.														
+	Cautious	traits	char crass	H	!Xe's careful.														
+	Pessimist	traits	char crass	H	The glass is half empty, and !xe isn't thirsty anyway; !xe's a pessimist.														
+	Crude	traits	char crass		!Xe is ratxer crude.														
+	Uptight	traits	char flaw	H	!Xe is ratxer uptight.									3	1	0	0		
+	Sadist	traits	char flaw		!Xe's a sadist.										-5			5	
+	Masochist	traits	char flaw	H	!Xe enjoys pain... a lot.				2						-1			-1	
+	Airhead	traits	char goofy	H	!Xe's a complete airhead.						-1								
+	Stupid	traits	char goofy																
+	Energetic	traits	char goofy	H	!Xe's quite energetic.														
+	Girly	traits	char goofy		!Xe's very girly.														
+	Silly	traits	char goofy		!Xe is silly.														
+	Traditional	traits	char hoity																
+	Spoiled	traits	char hoity																
+	Aloof	traits	char hoity	H	!Xe's distant and aloof. 		1	1										1	
+	Shy	traits	char hoity	H	!Xe's shy.														
+	Snob	traits	char hoity																
+	Mysterious	traits	char hoity		You can't figure !xis out; !xe's quite mysterious.							1	2					2	
+	Untrustworthy	traits	char mean																
+	Rude	traits	char mean		!Xe is rude.														
+	Ruthless	traits	char mean		!Xe's ruthless.										-3			3	
+	Suspicious	traits	char mean																
+	Trusting	traits	char nice																
+	Pure	traits	char nice		!Xe's as pure as the driven snow.								1		4	1		1	
+	Open Minded	traits	char nice		!Xe has a mind that is open to anything.						1		1		-1				
+	Spiritual	traits	char nice																
+	Depressed	traits	char sad		!Xe's a depressed person.														
+	Lustful	traits	char sex	H	!Xe's filled with lust.			-1							-2				
+	Feisty	traits	char tough		!Xe's a feisty one.														
+	Stubborn	traits	char tough																
+	Patriotic	traits	char upbeat	H	!Xe's a patriot through and through.		1		1						1			2	
+	Optimist	traits	char upbeat	H	!Xe's quite optimistic.														
+	Irresponsible	traits	char vice	H	!Xe's just plain irresponsible.										-1			1	
+	Jealous	traits	char vice	H	!Xe's the jealous type.													-1	
+	Insecure	traits	char vice	H	!Xe's very insecure.					-1								-3	
+	Sexist	traits	char vice	H	!Xe is sexist.						-1			4					
+	Greedy	traits	char vice	H	!Xe's greedy.														
+	Degenerate	traits	char vice	H	!Xe's a total degenerate.										-2				
+	Racist	traits	char vice	H	!Xe is hateful towards people of otxer races.						-1			4					
+	Quick Temper	traits	char vice	H	!Xe's got a quick temper.					-2					-1			1	
+	Inexperienced	traits	char vice	H	!Xe's totally inexperienced.			-1										-2	
+	Immoral	traits	char vice	H	!Xe has no sense of morals or decency.					-1				4	-3			1	
+	Immature	traits	char vice		!Xe's totally immature.					1	-1				-1			1	
+	Retarded	traits	char vice	H	!Xe looks like !xe has the wrong number of cromosomes.			-2			-5			5	-2	-2	-2		
+	Insane	traits	char vice	H	!Xe is a few sandwiches short of a picnic.			-2		-3	-2			4	-1			-1	
+	Bitch	traits	char vice	H	!Xe is a huge bitch.					-3				4	2				
+	Slob	traits	char vice	H															
+	Selfish	traits	char vice	H	!Xe's selfish.														
+	Humourless	traits	char vice		!Xe has no sense of humour.					-2									
+	Paranoid	traits	char vice		!Xe seems to think the world is out to get !xis.			3				1						-2	
+	Proud	traits	char vice	H	!Xe seems ratxer proud.			1						3	1	0	0		
+	Gullible	traits	char vice		Did you know that if you look up gullible in the dictionary, you'll find a photo of !xis?														
+	Misogynist	traits	char vice	H	!Xe hates women. Just hates them.						-2			4	-3				
+	Autistic	traits	char vice	H	!Xe's got the tism.														
+	Lazy	traits	char vice	H	!Xe's a lazy SOB.		-1		-3							-1		-1	
+	Unfaithful	traits	char vice	H															
+	Vain	traits	char vice	H	!Xe seems quite vain.									3	1	0	0		
+	High Maintenance	traits	char vice		!Xe's a high-maintenance woman. Best to steer clear...													3	
+	Naive	traits	char vice	H	!Xe's so naive.			-1			-1								
+	Gluttonous	traits	char vice	H	!Xe's a glutton.														
+	Evil	traits	char vice	H	!Xe is bad to the bone.									5	-7				
+	Patient	traits	char virtue	H	!Xe's never in a rush.				1		1							1	
+	Polite	traits	char virtue		!Xe's quite polite.					1			1		1	1			
+	Responsible	traits	char virtue	H	!Xe's very responsible.			1							1			1	
+	Faithful	traits	char virtue	H	!Xe's a faithful person.														
+	Talented	traits	char virtue	H	!Xe seems quite talented.		1	1	1	1	1	1		4					
+	Outgoing	traits	char virtue		!Xe's very outgoing. 													3	
+	Educated	traits	char virtue	H	!Xe seems well-educated.						3			3	1		0		
+	Dilligent	traits	char virtue	H	!Xe's dilligent.														
+	Funny	traits	char virtue	H	!Xe is a funny one.														
+	Honest	traits	char virtue		You get an honest vibe from !xis.										1				
+	Nuturing	traits	char virtue	H	!Xe's a nuturing person.					1					1				
+	Gifted	traits	char virtue	H	!Xe's very gifted.														
+	Loyal	traits	char virtue	H	!Xe's loyal.														
+	Generous	traits	char virtue	H	!Xe's ratxer generous.														
+	Kind	traits	char virtue	H	!Xe's a kindly person.														
+	Humble	traits	char virtue	H	!Xe has a humble vibe to !xis.										2				
+	Modest	traits	char virtue		!Xe's a modest person.										1			-1	
+	Delicate	traits	char weak		!Xe's very delicate.														
+	Skirt	traits	clothing	V	!Xe's wearing a skirt. Check out those legs!									0		1			
+	Bikini	traits	clothing	V	!Xe's wearing a bikini.									0		5			
+	Underwear	traits	clothing	V	!Xe's wearing nothing but !xis underwear!									0		5			
+	Schoogirl Uniform	traits	clothing	V	!Xe's dressed like a schoolgirl.									0		1			
+	Visible Cleavage	traits	clothing	V	Your eyes are drawn towards !xis cleavage...									0		3		1	
+	Swimsuit	traits	clothing	V	!Xe's wearing a swimsuit.									0		3			
+	Suit	traits	clothing	V	!Xe's wearing a suit.									0	1				
+	Nude	traits	clothing	V	!Xe's naked!							2		0		7			
+	Sex Addict	traits	drugs	H	!Xe is addicted to sex.										-7				
+	Social Drinker	traits	drugs	H	!Xe is a casual social drinker.									3	0	0	0		
+	Drug Addict	traits	drugs	H	You see several telltale signs that !xe is a drug addict.			-1	-2		-1			5	-2	0	-2		
+	Drug User	traits	drugs	H	You get the impression that !xe is definately a frequent drug user.									4	-1	0	0		
+	Smoker	traits	drugs	H	!Xe is a smoker.				-2					3	-1				
+	Alcoholic	traits	drugs	H	!Xe is an alcoholic.		1		-1					4	-2	0	-1		
+	Teetotaler	traits	drugs	H	!Xe doesn't drink.			1			1			4	3				
+	Stoner	traits	drugs	H	!Xe likes to get high.														
+	Exotic	traits	eth		!Xe's exotic looking.														
+	Uparian	traits	eth continent	H	!Xe is Uparian, from the Nothern continent of Uparia.														
+	Aurian	traits	eth continent	H	!Xe is Aurian, from the Eastern continent of Aurus.														
+	Sudar	traits	eth continent	H	!Xe is a Sudari, from the massive Southern continent of Sudar.														
+	Midursian	traits	eth continent	H	!Xe is Midursian, from the central continent of Midursia.														
+	Yamatan	traits	eth nation	H	!Xe is Yamatan, from the island chain of the Eastern continent of Aurus.														
+	Albion	traits	eth nation	H	!Xe is Albion, from the island kingdom to the West of Uparia.														
+	Gallian	traits	eth nation	H	!Xe is Gallian, from a nation of Uparia.														
+	Endu	traits	eth nation	H	!Xe is Endu, from the Midursian nation of Endus.														
+	Zhonn	traits	eth nation	H	!Xe is Zhonnese, from the empire of Zhonn on the Eastern continent of Aurus.														
+	Allemon	traits	eth nation	H	!Xe is Allemon, from the Uparian nation of Allemanga.														
+	Talian	traits	eth nation	H	!Xe is Talian, from the southern land of Talia in Uparia.														
+	Novan	traits	eth nation	H	!Xe is a Novan, from the Terra Nova Confederacy of the Western continent.														
+	Ibarian	traits	eth nation	H	!Xe is Ibarian, from the warm Ibar Peninsula of Southwestern Uparia.														
+	Norjic	traits	eth nation	H	!Xe is Jorjic, from the frigid northern land of Uparia.														
+	Zemljan	traits	eth nation	H	!Xe is Zemljan, from the massive and remote Eastern reaches of Uparia.														
+	Blue Eyes	traits	eyes	V	!Xe has blue eyes.														
+	Red Eyes	traits	eyes	V	!Xe has red eyes!													1	
+	Strange Eyes	traits	eyes	V	!Xe has strange eyes!														
+	Brown Eyes	traits	eyes	V	!Xe has brown eyes.														
+	Green Eyes	traits	eyes	V	!Xe has green eyes.														
+	Redhead	traits	hair	V	!Xe is a ginger.		3		-2				1	0					
+	Pink Hair	traits	hair	V	!Xe has pink hair.										-1				
+	Grey Hair	traits	hair	V	!Xe has grey hair.						1			0					
+	White Hair	traits	hair	V	!Xe has white hair.						1			0		-1			
+	Blonde Hair	traits	hair	V	!Xe is a blonde. Does !xe have more fun?					1	-2		2	0	-2	3			
+	Black Hair	traits	hair	V	!Xe has black hair.									0					
+	Blue Hair	traits	hair	V	!Xe has blue hair.						-1			0					
+	Brunette	traits	hair	V	!Xe has brown hair.									0					
+	Green Hair	traits	hair	V	!Xe has green hair.					-1				0					
+	Short Hair	traits	hair info	V	!Xe has short hair.														
+	Long Hair	traits	hair info	V	!Xe has long hair.														
+	Bald	traits	hair type	V	!Xe has no hair.			1		-1	2	1		0		-4		-2	
+	Sports Fan	traits	hobby	H	!Xe is a fan of sports.														
+	Artistic	traits	hobby	H	!Xe is an artist.			1		1	1								
+	Cosplayer	traits	hobby	H	!Xe dresses up as character from comics and whatever as a hobby.										-1	1		1	
+	Foodie	traits	hobby	H	!Xe likes food.														
+	Maid	traits	job	H	!Xe's a maid.										1				
+	Athlete	traits	job 	H	!Xe's an athelete.				2			2							
+	Dancer	traits	job art	H	!Xe likes to dance.													1	
+	Musician	traits	job art	H	!Xe is musically inclined.					2	1			5					
+	Writer	traits	job art	H	!Xe writes for a living.			1			1								
+	Model	traits	job art	H	!Xe is a model, if you know what I mean.					2	-1				-2	4		1	
+	Actress	traits	job art	H	!Xe is an actress.					2				5	-1	3		2	
+	Photographer	traits	job art	H	!Xe's got a keen eye, which is why !xe's a photographer.			2											
+	Singer	traits	job art		!Xe's a singer with a beautiful voice.													1	
+	Royal	traits	job caste	H	!Xe is descended from a royal bloodline.		1	1	2	3	2	1	3	6	7	5	2	2	
+	Idol	traits	job caste	H	!Xe is an idol.					3				6		7		2	
+	Heroine	traits	job caste	H	!Xe's a !xiso. By all rights, !xe'd be the main character in a story.		2	2	2	2	2	2	2		3	2		3	
+	Noble	traits	job caste	H	!Xe comes from a noble house.		1			2	1	1	1	6	3	3			
+	Office Worker	traits	job corporate	H	!Xe is an office drone.					1	1								
+	Executive	traits	job corporate	H	!Xe's an executive.			2		1	3								
+	Secretary	traits	job corporate	H	!Xe is a secretary.			1								1			
+	Drug Dealer	traits	job crime	H	!Xe deals drugs.										-2				
+	Hacker	traits	job crime	H	!Xe is a hacker.						2				-1			-1	
+	Gangster	traits	job crime	H	!Xe's a gansgster.		2								-3			2	
+	Detective	traits	job crime	H	!Xe is a detective.			4											
+	Assassin	traits	job crime	H	!Xe murders people for a living.			1			1	3	1		-5			1	
+	Thug	traits	job crime	H	!Xe's a thug.		3								-2			2	
+	Teacher	traits	job education	H	!Xe is the principal of a school.					1	2							1	
+	Dean	traits	job education	H	!Xe's a dean at a college.			1			2							3	
+	Professor	traits	job education	H	!Xe's a college professor.					1	2							2	
+	Student	traits	job education	H	!Xe attends school.						1								
+	Principal	traits	job education	H	!Xe is the principal of a school.			1			2							3	
+	Nurse	traits	job medicine	H	!Xe is a nurse.						1			5	-2	1		-1	
+	Unemployed	traits	job not	H	!Xe's got no job.													-3	
+	Tourist	traits	job not	H	!Xe's a tourist, on vacation.										-2				
+	Housewife	traits	job not	H	!Xe's a housewife.										2			-1	
+	Cheerleader	traits	job not	H	!Xe's a cheerleader.					1		4			-1	2	1	2	
+	Scientist	traits	job profession	H	!Xe is a scientist.			2			6			5					
+	Journalist	traits	job profession	H	!Xe's a journalist.														
+	Doctor	traits	job profession	H	!Xe is a doctor.						4			5					
+	Salesperson	traits	job retail	H	!Xe is a salesperson.					2					-1			2	
+	Waitress	traits	job retail	H	!Xe's a waitress.				1										
+	Grocer	traits	job retail	H	!Xe's a grocer.														
+	Retail Worker	traits	job retail	H	!Xe works in retail.														
+	Stripper	traits	job sex	H	!Xe's a stripper.							2			-1	1		2	
+	Cam Girl	traits	job sex	H	!Xe's a cam girl. Imagine all the keyboards !xe's stained with spunk.										-1	1		1	
+	Escort	traits	job sex	H	!Xe is an escort.				1	1					-4	1	-1		
+	Porn Star	traits	job sex	H	!Xe's a porn star. Hot!				1	1		2			-3	2	-1	3	
+	Superhero	traits	job silly	H	!Xe's a superhero. !xe is greatly responsible in the use of !xis great powers.		4	4	4	2	2	4	4		6	2		3	
+	Factory Worker	traits	job work	H	!Xe works in a factory.														
+	Trades Worker	traits	job work	H	!Xe's a tradesperson.														
+	Farmer	traits	job work	H	!Xe's a farmer.				2										
+	Sexy	traits	looks face	V	!Xe's one sexy dame!										-1	2		1	
+	Bad Skin	traits	looks face	V	!Xe has bad skin.											-1		-1	
+	Ugly	traits	looks face	V	!Xe's an ugly one.											-2		-2	
+	Acne	traits	looks face	V	!Xe has some acne.											-2		-2	
+	Cute	traits	looks face	V	!Xe's cute!											2			
+	Gorgeous	traits	looks face	V	Wow, !xe's gorgeous!											3		1	
+	Stunning	traits	looks face	V	!Xe's absolutely stunning.														
+	Homely	traits	looks face	V	!Xe looks ratxer homely.											-1		-1	
+	Pretty	traits	looks face	V	!Xe's pretty.					1						1			
+	Beautiful	traits	looks face	V	!Xe's beautiful, just beautiful.										1	2			
+	Nimble	traits	physical	H	!Xe looks quite nimble.														
+	Nice Legs	traits	physical	V	!Xe has nice legs.														
+	Thin	traits	physical	V	!Xe is skinny.		-1		-1			2	1	0				-1	
+	Weak	traits	physical	H	!Xe looks pretty weak.		-2											-2	
+	Wide Hips	traits	physical	V	!Xe's got wide hips.													-1	
+	Flexible	traits	physical	H	!Xe is flexible like a gymnast.							5		3					
+	Fat	traits	physical	V	!Xe is fat.				-2					0		-4	1	-2	
+	Chubby	traits	physical	V	!Xe's kinda chubby.													-1	
+	Fit	traits	physical	V	!Xe's fit.		1		1			1						1	
+	Nice Ass	traits	physical	V	!Xe's got a nice ass!														
+	Short	traits	physical height	V	!Xe is short.		-1	-1				1		0				-2	
+	Tall	traits	physical height	V	!Xe is quite tall.		1							3		2		1	
+	Have Secret Sex Tape	traits	player		The two of you made a sex tape, and !xe doesn't even know it!														
+	Have Sex Tape	traits	player		The two of you have made a sex tape.														
+	Have Photographed	traits	player		You've photographed !xis.														
+	Have Secretly Photographed	traits	player		You've secretly photographed !xis without !xis consent.														
+	Baby Rabies	traits	preg	H	!Xis biological clock is ticking - !xe really wants to get knocked up.						-1			4	-3		3		
+	Fertile	traits	preg fertility	S	!Xe is quite fertile; !xe is beggin' for a preggin'.									4	0	0	5		
+	On Birth Control	traits	preg fertility	H	!Xe is using birth control.							-1					-10		
+	Broodmother	traits	preg fertility	S	!Xe has a uterus in overdrive.									5			7		
+	Infertile	traits	preg fertility	S	!Xe's not very fertile. It would take some doing to get !xis knocked up.												-7		
+	Sterile	traits	preg fertility	S	!Xe has a barren womb.									5			-7		
+	Very Pregnant	traits	preg status	V	!Xe is obviously quite pregnant. !xe looks like !xe's ready to burst!									0					
+	Already Pregnant	traits	preg status	S	!Xe has a bun in the oven.							2		0					
+	Elf	traits	race inhuman		!Xe's one of them pointy-eared things what live in them woods.														
+	Cat Girl	traits	race inhuman	H	!Xe is a cat girl.							2	1			1			
+	Divine	traits	race inhuman	S	You have an intense feeling of awe. There's something about !xis.		7	7	7	7	7	7	7	7	7	7	-7		
+	Cow Girl	traits	race inhuman	H	I know this sounds absurd, but somewhere in !xis lineage there was a prized milking cow.														
+	Angelic	traits	race inhuman	H	!Xe just so angellic!			3		4		1	2	6	4	4			
+	Demonic	traits	race inhuman	S	Your knees feel weak and your heart fills with dread! !xe has a dark, ominous aura. 		6	6	6	6	6	6	6	6	-6	6	6		
+	Occultist	traits	religion	H	!Xe's dabbled in witchcraft and the occult.								1	6	-2				
+	Jewish	traits	religion	H	!Xe is a member of an obscure religion.			1			1			5	1				
+	Pagan	traits	religion	H	!Xe's a filthy pagan.									5	-1				
+	Muslim	traits	religion	H	!Xe is a member of the People of the Sword and Flame.									0	4	0	1		
+	Lesbian	traits	sex	S	You notice !xis the fingernails are trimmed on just one of !xis hands. Hmmm...														
+	Cocksucker	traits	sex fun	H	!Xe's tasted a lot of dicks, and enjoyed it.														
+	Built for Porn	traits	sex fun	S	!Xe has a hidden, undiscovered talent for porn. !xe has a lot of porntential, if you will.							1			-1	1			
+	Demon in the Sack	traits	sex fun	S	!Xe's a great lay.							1	1		-1				
+	Freak	traits	sex fun	H	!Xe loves to fuck.									5	-3				
+	Butt Slut	traits	sex fun	S	!Xe takes it up the pooper.														
+	Frigid	traits	sex none	H	!Xe does not enjoy sex.					-1					2				
+	Chaste	traits	sex none	H	!Xe's abstaining from sex.									4	4				
+	The Big One	traits	sex STD	S	!Xe has a sexually-transmitted disease known only as The Big One.														
+	Crotchfire	traits	sex STD	S	!Xe has a sexually-transmitted rash called Crotchfire.														
+	Middle Class	traits	social class	H	!Xe is from the middle class.									4					
+	Rich	traits	social class	H	!Xe is quite wealthy.						2		1	5	1				
+	Wealthy	traits	social class																
+	Poor	traits	social class	H	!Xe is poor.			-1			-1		-1	4					
+	Fortunate	traits	social class	H	!Xe is quite lucky.								4	4					
+	Priviliged	traits	social class	H	!Xe seems ratxer priviliged.		1	1	1	1	1	1	2	4	1	1			
+	Has Son	traits	social fam		!Xe has a son.														
+	GMILF	traits	social fam		!Xe's a grandmotxer you'd like to fuck.														
+	Divorced	traits	social fam		!Xe's divorced.														
+	Has Daughter	traits	social fam		!Xe has a daughter.														
+	Grandmother	traits	social fam	H	!Xe has grandchildren.					1				4	3		0		
+	Mother	traits	social fam	H	!Xe has children.					1				4	2		1		
+	Married	traits	social rel	H	!Xe is married.									4	2	1			
+	In Love	traits	social rel		!Xe's in love with someone special. (It's not you.)										4				
+	Has Boyfriend	traits	social rel		!Xe has a boyfriend.													1	
+	Seeing Someone	traits	social rel		!Xe's seeing someone.														
+	Engaged	traits	social rel		!Xe's already engaged.														
+	Has Jealous Boyfriend	traits	social rel		!Xe's got a jealous boyfriend.										1			1	
+	Cuckold Husband	traits	social rel		!Xis husband is a total cuck.										-2			1	
+	In Relationship	traits	social rel		!Xe's already in a relationship.										1			1	
+	Has Girlfriend	traits	social rel		!Xe has a girlfriend.													1	
+	Bad Reputation	traits	social rep	H	You've heard the rumours about !xim. They aren't good.					-1				4	-5				
+	Famous	traits	social rep	H	You recognize !xim !xe must be famous.					2				5	-1	5			
+	Lonely	traits	temp mood		!Xe's very lonely.		-1											-3	
+	Bad Mood	traits	temp mood		!Xe's a tad cranky right now.														
+	Tired	traits	temp mood	V	!Xe's very tired.		-1	-2			-1								
+	Good Mood	traits	temp mood		You can tell that !xe's in a good mood.														
+	Horny	traits	temp repro	H	!Xe's quite horny.										-3				
+	PMSing	traits	temp repro	H	!Xe is on the rag, no doubt about it.									3	1	-1	-4		
+	Ovulating	traits	temp repro	H	!Xe's ovulating! !xis body is at peak fertility.									3	-1	2	4		
+	Hypnotized	traits	temp status	V	!Xe's hypnotized.			-2							-5			-2	
+	Hungry	traits	temp status		!Xe is starving. Better feed !xis.		-1	-1	-1	-1									
+	Dirty	traits	temp status	V	!Xe's filthy.				1										
+	Traumatized	traits	temp status	S	!Xe's traumatized.														
+	Dazed	traits	temp status	V	!Xe is kinda dizzy.			-2			-2	-2			-1				
+	Drunk	traits	temp status	V	!Xe's intoxicated.		1	-2			-2	-2							
+	Thirsty	traits	temp status																
+	High	traits	temp status	V	!Xe's high on drugs.			-2			-2	-2			-1			2	
+	Clever	traits	x		!Xe's a clever girl.														
+	Trashy	traits	x		!Xe's trashy.														
+	elegant	traits	X-OLD																
+	blackblood addict	traits	X-OLD																
+	Leo	traits	zodiac	S	People born under the sign of Leo are natural born leaders. They are dramatic, creative, self-confident, dominant and extremely difficult to resist, able to achieve anything they want to in any area of life they commit to.	Aug	1		-1	1		-1		0					
+	Libra	traits	zodiac	S	Libras are peaceful and fair, and they hate being alone.	Oc				1	-1			0					
+	Taurus	traits	zodiac	S	Sudden changes, complications, insecurity of any kind, synthetic fabrics	May			1			-1		0					
+	Ophiuchus 	traits	zodiac	S	Those born under Ophiuchus are fortunate.								2	0					
+	Aquarius	traits	zodiac	S	Aquarius' are shy and quiet, but on the other hand they can be eccentric and energetic.	Feb		-1	1					0					
+	Aries	traits	zodiac	S	Aries are continuously looking for change, speed and competition, always being the first in everything - from work to social gatherings.	April	1			-1				0					
+	Pisces	traits	zodiac	S	Pisces are very friendly, so they often find themselves in a company of very different people.	March	-1			1				0					
+	Cancer	traits	zodiac	S	Deeply intuitive and sentimental, Cancer can be one of the most challenging zodiac signs to get to know.	July		1		-1				0					
+	Scorpio	traits	zodiac	S	Scorpio-born are passionate and assertive people. They are determined and decisive, and will research until they find out the truth. 	Nov	1			-1				0					
+	Saggitarius	traits	zodiac	S	Curious and energetic, Sagittarius is one of the biggest travelers among all zodiac signs.	Dec		1	-1					0					
+	Capricorn	traits	zodiac	S	Capricorn is a sign that represents time and responsibility, and its representatives are traditional and often very serious by nature.	Jan				-1	1			0					
+	Gemini	traits	zodiac	S	Expressive and quick-witted, Gemini represents two different personalities in one and you will never be sure which one you will face.	June			-1		1			0					
+	Virgo	traits	zodiac	S	Virgos are always paying attention to the smallest details and their deep sense of humanity makes them one of the most careful signs of the zodiac.	Sept		1		-1				0	1				
